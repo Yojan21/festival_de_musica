@@ -12,5 +12,8 @@
     "gulp"
   ],
   "author": "Yojan Romero",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.83.1"
+  }
 }
