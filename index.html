@@ -14,16 +14,16 @@
         <div class="contenedor contenido_header">
             <h1>Tecnho & EDM festival</h1>
             <nav class="navegacion_principal">
-                <a href="#">LineUp</a>
-                <a href="#">Galeria</a>
-                <a href="#">Boletos</a>
+                <a href="#lineup">LineUp</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#boletos">Boletos</a>
             </nav>
         </div>
     </header>
 
     <div class="video">
         <div class="overlay">
-            <div class="contenedor contenido_video"">
+            <div class="contenedor contenido_video">
                 <h2> Techno & EDM Festival</h2>
                 <p>Popayan, Colombia</p>
             </div>
@@ -37,7 +37,12 @@
 
     <section class="informacion">
         <div class="imagen">
-            <img src="src/img/imagen_dj.jpg" alt="imagen1">
+            <picture> 
+                <source srcset="build/img/imagen_dj.avif" type="image/avif">
+                <source srcset="build/img/imagen_dj.webp" type="image/webp">
+                <img width="300" height="200" loading="lazy" src="build/img/imagen_dj.jpg" alt="imagen1">
+            </picture>
+            
 
         </div>
         <div class="contenido_festival">
