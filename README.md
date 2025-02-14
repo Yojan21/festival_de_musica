@@ -6,4 +6,4 @@
 *En este Proyecto se usa HTML, CSS, JavaScript, SCSS*
 
 
-[Link dek host:](https://festivaldemusicaromero.netlify.app/)
+[Festival de Musica](https://festivaldemusicaromero.netlify.app/)
